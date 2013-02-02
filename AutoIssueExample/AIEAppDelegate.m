@@ -15,6 +15,9 @@
     
     // FIXME: piyopiyo
     self.window.rootViewController = [[UIViewController alloc] init];
+    
+    // TODO: hogehoge
+    // FIXME: fugafuga
 
     return YES;
 }
