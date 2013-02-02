@@ -13,6 +13,9 @@
     // TODO: fugafuga
     self.window.rootViewController = [[UIViewController alloc] init];
     
+    // FIXME: piyopiyo
+    self.window.rootViewController = [[UIViewController alloc] init];
+    
     return YES;
 }
 
