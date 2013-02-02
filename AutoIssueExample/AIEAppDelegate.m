@@ -16,6 +16,11 @@
     // FIXME: piyopiyo
     self.window.rootViewController = [[UIViewController alloc] init];
     
+    // TODO: zzzzzzzzzzzzzzzzzzzzzzz
+    for (NSInteger i=0; i<10; i++) {
+        NSLog(@"hoge: %@", window);
+    }
+    
     return YES;
 }
 
