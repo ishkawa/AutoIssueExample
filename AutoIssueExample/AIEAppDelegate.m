@@ -10,6 +10,9 @@
     self.window.rootViewController = [[UIViewController alloc] init];
     [self.window makeKeyAndVisible];
     
+    // TODO: fugafuga
+    self.window.rootViewController = [[UIViewController alloc] init];
+    
     return YES;
 }
 
