@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F270AEF16BDC93E00284990 /* AIEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F270AEE16BDC93E00284990 /* AIEViewController.m */; };
 		7FB887B116BD288D0005FFE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FB887B016BD288D0005FFE4 /* UIKit.framework */; };
 		7FB887B316BD288D0005FFE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FB887B216BD288D0005FFE4 /* Foundation.framework */; };
 		7FB887B516BD288D0005FFE4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FB887B416BD288D0005FFE4 /* CoreGraphics.framework */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F270AED16BDC93E00284990 /* AIEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIEViewController.h; sourceTree = "<group>"; };
+		7F270AEE16BDC93E00284990 /* AIEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIEViewController.m; sourceTree = "<group>"; };
 		7FB887AD16BD288D0005FFE4 /* AutoIssueExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoIssueExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FB887B016BD288D0005FFE4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7FB887B216BD288D0005FFE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -80,6 +83,8 @@
 			children = (
 				7FB887BF16BD288E0005FFE4 /* AIEAppDelegate.h */,
 				7FB887C016BD288E0005FFE4 /* AIEAppDelegate.m */,
+				7F270AED16BDC93E00284990 /* AIEViewController.h */,
+				7F270AEE16BDC93E00284990 /* AIEViewController.m */,
 				7FB887B716BD288E0005FFE4 /* Supporting Files */,
 			);
 			path = AutoIssueExample;
@@ -167,6 +172,7 @@
 			files = (
 				7FB887BD16BD288E0005FFE4 /* main.m in Sources */,
 				7FB887C116BD288E0005FFE4 /* AIEAppDelegate.m in Sources */,
+				7F270AEF16BDC93E00284990 /* AIEViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +289,7 @@
 				7FB887CC16BD288E0005FFE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
