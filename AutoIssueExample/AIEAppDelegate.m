@@ -16,8 +16,6 @@
     // FIXME: piyopiyo
     self.window.rootViewController = [[UIViewController alloc] init];
     
-    // TODO: hogehoge
-
     return YES;
 }
 
