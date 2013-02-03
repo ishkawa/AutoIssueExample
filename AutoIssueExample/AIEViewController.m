@@ -15,6 +15,10 @@
 {
     [super viewWillAppear:animated];
     
+    // TODO: fetch items from server
+    //       send `GET /repos/:owner/:repo/issues` request asynchronously.
+    //       and present progressHUD while communicating with server.
+    //       http://developer.github.com/v3/issues/#list-issues-for-a-repository
     [self.tableView reloadData];
 }
 
