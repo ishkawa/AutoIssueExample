@@ -15,6 +15,7 @@
 {
     [super viewWillAppear:animated];
     
+    // TODO: fetch items from server
     [self.tableView reloadData];
 }
 
